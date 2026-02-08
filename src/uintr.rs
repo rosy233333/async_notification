@@ -11,7 +11,7 @@ impl NotificationIf for UIntrNotification {
         todo!()
     }
 
-    fn release_id(id: u64) {
+    unsafe fn release_id(id: u64) {
         todo!()
     }
 

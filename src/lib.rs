@@ -1,7 +1,7 @@
 #![no_std]
 extern crate alloc;
 
-mod interface;
+pub mod interface;
 #[cfg(feature = "signal")]
-mod signal;
-mod uintr;
+pub mod signal;
+pub mod uintr;
