@@ -1,3 +1,5 @@
+//! 使用信号的通知机制
+//!
 //! 必须配合tokio运行时
 
 use crate::interface::NotificationIf;
@@ -10,6 +12,7 @@ use futures::stream::{StreamExt, iter};
 use lazyinit::LazyInit;
 use signal_hook_tokio::{Signals, SignalsInfo};
 
+/// 使用信号的通知机制
 pub struct SignalNotification;
 
 struct SignalsInfoWrapper {

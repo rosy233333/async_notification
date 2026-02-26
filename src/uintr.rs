@@ -1,5 +1,7 @@
+//! 使用用户态中断的通知机制
 use crate::interface::NotificationIf;
 
+/// 使用用户态中断的通知机制（未完成）
 pub struct UIntrNotification;
 
 impl NotificationIf for UIntrNotification {
